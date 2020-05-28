@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.unorderlist{
+    background-color: blue;
+    padding: 15px;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    color: white;
+    text-transform: capitalize;
+    list-style: none;
+    text-decoration: none;
+
+   
+}
+.text-title{
+    font-family: cursive;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+}
