@@ -16,7 +16,7 @@ class Shop extends Component{
 
                     <img src={img} alt="shop-name" className="card-img-top"/>
 
-                    <p style={{textAlign:"center",textTransform:"uppercase",marginTop:"40px",backgroundColor:"green",color:"white"}}>{title}</p>
+                    <p style={{textAlign:"center",textTransform:"uppercase",marginTop:"40px",backgroundColor:"black",color:"white"}}>{title}</p>
                     
                     </Link>
                    

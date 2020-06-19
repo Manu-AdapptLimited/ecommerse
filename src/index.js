@@ -10,8 +10,7 @@ ReactDOM.render(
      <React.StrictMode>
       <App />
      </React.StrictMode>
-  </ProductProvider>
- ,
-  document.getElementById('root')
+  </ProductProvider>,
+ document.getElementById('root')
 );
 serviceWorker.unregister();

@@ -12,11 +12,11 @@ class Shoplist extends Component {
             <React.Fragment>
                 <div className="py-5">
                     <div className="container">
-                        <Title name="Neighbouring" title="Shop"/>
+                        <Title name="neighbouring" title="Shop"/>
                         <div className="row">
                             <ProductConsumer>
                                 {(value)=>{
-                                    console.log(value);
+                                   
                                     
                                     return value.shop.map(shops=>{
                                         return <Shop key={shops.id} shop={shops} />;
